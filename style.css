@@ -186,6 +186,54 @@ a {
   color: var(--amber);
 }
 
+.certifications {
+  background-color: var(--muted-paper);
+}
+
+.certificate-list {
+  border-top: 1px solid var(--line);
+}
+
+.certificate-item {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 110px 1fr auto;
+  padding: 25px 0;
+}
+
+.certificate-number {
+  color: var(--amber);
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.certificate-item h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: normal;
+}
+
+.certificate-item div p {
+  color: #5e615a;
+  font-size: 0.88rem;
+}
+
+.certificate-item a {
+  border-bottom: 1px solid var(--ink);
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.certificate-item a:hover {
+  color: var(--amber);
+}
+
 .experience {
   background-color: var(--ink);
   color: var(--paper);
@@ -381,5 +429,11 @@ footer {
     align-items: flex-start;
     flex-direction: column;
     gap: 6px;
+  }
+
+  .certificate-item {
+    align-items: flex-start;
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 }
