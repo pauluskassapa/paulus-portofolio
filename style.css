@@ -90,16 +90,6 @@ a {
   position: relative;
 }
 
-.hero::after {
-  border: 1px solid var(--olive);
-  content: "";
-  height: 155px;
-  position: absolute;
-  right: 12%;
-  top: 120px;
-  width: 155px;
-}
-
 .hero-label,
 .section-number {
   color: var(--amber);
@@ -346,13 +336,6 @@ footer {
   .hero {
     min-height: 580px;
     padding: 90px 8%;
-  }
-
-  .hero::after {
-    height: 90px;
-    right: 8%;
-    top: 110px;
-    width: 90px;
   }
 
   .section-space {
