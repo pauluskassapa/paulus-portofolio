@@ -5,7 +5,7 @@ Website portfolio responsif milik Paulus Kassapa Sobhita Suherman.
 ## Profile
 
 - Name: Paulus Kassapa Sobhita Suherman
-- NIM: NIM_KAMU
+- NIM: 535250155
 - Program: Informatics Engineering
 - Interest: Cybersecurity, especially Blue Team and SOC Analyst
 
