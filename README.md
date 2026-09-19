@@ -38,5 +38,4 @@ This website uses CSS media queries for tablet and mobile screen sizes.
 [paul-security-labs](https://github.com/pauluskassapa/paul-security-labs)
 
 ## Deployment
-
-GitHub Pages link will be added after deployment.
+https://pauluskassapa.github.io/paulus-portofolio/
